@@ -1,0 +1,17 @@
+{
+  "name": "hunomina/cli-poo-php",
+  "description": "Implementation of CLI classes for PHP7.1 or higher",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "hunomina",
+      "email": "hugo.f972@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7.5@dev"
+  }
+}
