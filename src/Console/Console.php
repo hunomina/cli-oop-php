@@ -16,6 +16,7 @@ class Console
     /**
      * Console constructor.
      * @param string $path
+     * @throws ConsoleException
      * @throws \ReflectionException
      */
     public function __construct(string $path)
@@ -33,6 +34,8 @@ class Console
             }
 
             $this->_commands = $commands;
+        } else {
+            throw new ConsoleException('This path does not exist or is not a folder');
         }
     }
 

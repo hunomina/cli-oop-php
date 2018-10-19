@@ -1,5 +1,5 @@
 {
-  "name": "hunomina/cli-poo-php",
+  "name": "hunomina/cli-oop-php",
   "description": "Implementation of CLI classes for PHP7.1 or higher",
   "type": "library",
   "license": "proprietary",
