@@ -14,6 +14,14 @@ class Console
     private $_commands = [];
 
     /**
+     * @return array
+     */
+    public function getCommands(): array
+    {
+        return $this->_commands;
+    }
+
+    /**
      * Console constructor.
      * @param string $path
      * @throws ConsoleException
@@ -68,7 +76,7 @@ class Console
         $fileContent = @file_get_contents($file);
 
         $fqn = null;
-        if ($fileContent){
+        if ($fileContent) {
             $class = $namespace = '';
 
             $tokens = token_get_all($fileContent);
