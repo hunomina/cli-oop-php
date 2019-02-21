@@ -1,5 +1,7 @@
 # CLI OOP PHP
 
+[![Build Status](https://travis-ci.com/hunomina/cli-oop-php.svg?branch=master)](https://travis-ci.com/hunomina/cli-oop-php)
+
 Description : Implementation of CLI classes for PHP7.1 or higher.
 
 This class can be used in a php file called by a CLI with input redirection.
